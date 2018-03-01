@@ -1,0 +1,80 @@
+body {
+	background-color: white;
+	font-family: "Roboto";
+	margin: 0 ;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 20px;
+	background: #44559E;
+	color: white;
+}
+
+.selected {
+	color: black;
+	background-color: white;
+}
+
+button {
+	background-color: transparent;
+	color: white;
+	border: none;
+	height: 100%;
+	outline: none;
+	font-weight: 700;
+	transition: background-color .7s;
+	-webkit-transition: all .7s; 
+	-moz-transition: all .7s;
+	letter-spacing: 1px;
+	font-size: inherit;
+}
+
+button:hover {
+	color: #44559E;
+	background-color: white;
+}
+
+#message {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+#color {
+	display: block;
+	font-size: 200%;
+}
+
+
+
+#pre {
+	font-size: 75%;
+}
+
+.square {
+	border-radius: 13%;
+	width: 30%;
+	padding-top: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: all .4s;
+	-webkit-transition: all .4s; 
+	-moz-transition: all .4s;
+}
+
+#box {
+	padding-top: 10px;
+	max-width: 600px;
+	margin: auto;
+}
+#stripe {
+	background-color: black;
+	height: 40px;
+	text-align: center;
+	color: white;
+
+}
