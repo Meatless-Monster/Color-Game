@@ -1,2 +1,3 @@
 # Color-Game
-Web Development: color picker game
+
+Created while learning web development: guess the colored square that cooresponds with the rgb color name. 
